@@ -1,0 +1,27 @@
+#jsonFormatterButton {
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+#jsonFormatterButton::before {
+    content: "{ }";
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#jsonFormatterButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+  

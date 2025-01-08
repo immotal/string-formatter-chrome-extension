@@ -1,9 +1,5 @@
 # Chrome Extension 开发完全指南
 
-用 cursor 写的一个 Chrome 的插件；A Chrome plugin written with cursor.
-
-此文档也是使用 cursor 生成的.
-
 ## 目录
 - [Chrome Extension 开发完全指南](#chrome-extension-开发完全指南)
   - [目录](#目录)
@@ -424,4 +420,3 @@ console.timeEnd('操作名称');
 5. 添加了适当的注释说明
 
 文件应该已经成功创建在 `docs/chrome-extension-guide.md` 路径下。你可以检查文件是否已正确创建和写入。
-
